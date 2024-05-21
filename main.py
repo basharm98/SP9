@@ -1,4 +1,3 @@
-#by : @F_E_Y
 
 import zipfile
 import os
@@ -59,10 +58,10 @@ if not os.path.isdir('database'):
 
 API_ID = "22256614"
 API_HASH = "4f9f53e287de541cf0ed81e12a68fa3b"
-admin = 5934218120
+admin = 6556354444
 
 # Replace with your bot token
-token = "6641455664:AAHHF1s-rgVsppxo2Rtpw-1VHanD5F5gntk"
+token = "7118239395:AAE3YWdDP2i0RktX6THb9USYw_Hq6XrftME"
 client = TelegramClient('ses', API_ID, API_HASH)
 client.start()
 bot = client
@@ -378,7 +377,3 @@ async def handle_zip_file(event):
             await x.send_message(f'حدثت مشكلة أثناء فك الضغط: {str(e)}')
         
 client.run_until_disconnected()
-
-#by @F_E_Y
-#channel: https://t.me/Se7en_Eyes
-#in 06/02/2024
